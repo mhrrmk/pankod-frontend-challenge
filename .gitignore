@@ -11,6 +11,7 @@
 # next.js
 /.next/
 /out/
+/pages/indexDefault.js
 
 # production
 /build
