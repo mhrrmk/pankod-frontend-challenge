@@ -5,9 +5,11 @@ export const HeaderContent = styled(Content)`
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+flex-wrap: wrap;
 `
 
 export const HeaderWrapper = styled.div`
+flex-grow: 0;
 display: flex;
 align-items: center;
 justify-content: space-between;

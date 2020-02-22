@@ -15,7 +15,7 @@ export function Header() {
             <HeaderContent>
                 <HeaderText>DEMO Streaming</HeaderText>
                 <HeaderButtons>
-                    <Login>login</Login>
+                    <Login>Log in</Login>
                     <TrialWrapper>
                         <TrialText>Start Your Free Trial</TrialText>
                     </TrialWrapper>
