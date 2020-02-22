@@ -2,6 +2,7 @@ import styled from "styled-components"
 import {Content} from "../Styled"
 
 export const TitleWrapper = styled.div`
+flex-grow: 0;
 display: flex;
 align-items: center;
 width: 100%;
