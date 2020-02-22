@@ -1,9 +1,13 @@
 import React from "react"
+import {
+    FooterWrapper,
+    FooterContent
+} from "./Styled"
 
 export function Footer(props) {
     return (
-        <div className="footer">
-            <div className="content footer-content">
+        <FooterWrapper>
+            <FooterContent>
                 <div className="footer-text-content">
                     <div className="footer-links">
                         <a className="footer-link-item">Home</a>
@@ -32,7 +36,7 @@ export function Footer(props) {
                         <img className="footer-store-button-item" src="/assets/store/windows-store.svg" />
                     </div>
                 </div>
-            </div>
-        </div>
+            </FooterContent>
+        </FooterWrapper>
     )
 }

@@ -1,6 +1,7 @@
 import styled from "styled-components"
+import {Content} from "../Styled"
 
-export const StyledTitle = styled.div`
+export const TitleWrapper = styled.div`
 display: flex;
 align-items: center;
 width: 100%;
@@ -8,6 +9,8 @@ height: 59px;
 box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.66);
 background-color: #414141;
 `
+
+export const TitleContent = styled(Content)``
 
 export const TitleText = styled.div`
 padding-left: 2px;
