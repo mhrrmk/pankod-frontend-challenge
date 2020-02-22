@@ -12,7 +12,7 @@ import {
 import {SocialButton, StoreButton, FooterLink} from ".."
 import {copyright, footerLinks} from "../../Constants"
 
-export function Footer(props) {
+export function Footer(_props) {
     return (
         <FooterWrapper>
             <FooterContent>
