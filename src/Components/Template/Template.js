@@ -1,16 +1,17 @@
 import React from "react"
 import Head from 'next/head';
-import {Header, Footer} from "."
+import {Header, Footer} from "../"
+import {TemplateWrapper} from "./Styled"
 
 export function Template({children}){
     return (
-        <div className="container">
+        <TemplateWrapper>
             <Head>
                 <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"/>
             </Head>
             <Header/>
             {children}
             <Footer/>
-        </div>
+        </TemplateWrapper>
     )
 }
