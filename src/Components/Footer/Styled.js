@@ -2,7 +2,8 @@ import styled from "styled-components"
 import { Content } from "../Styled"
 
 export const FooterWrapper = styled.div`
-min-height: 217px;
+flex-grow: 0;
+min-height: 125px;
 display: flex;
 padding-bottom: 48px;
 padding-top: 44px;
