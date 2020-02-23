@@ -1,13 +1,11 @@
 import React from "react"
-import {Template, Title, SeriesMoviesContent} from "../src/Components"
+import { Template, Title, SeriesMoviesContent } from "../src/Components"
 
-export default function Movies(){
+export default function Movies() {
     return (
-            <Template>
-                <Title>Popular Movies</Title>
-                <SeriesMoviesContent>
-                    
-                </SeriesMoviesContent>
-            </Template>
+        <Template>
+            <Title>Popular Movies</Title>
+            <SeriesMoviesContent type="movies"/>
+        </Template>
     )
 }
