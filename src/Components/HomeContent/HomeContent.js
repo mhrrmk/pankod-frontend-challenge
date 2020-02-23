@@ -1,12 +1,12 @@
 import React from "react"
-import {ContentWrapper, ContentContent} from "./Styled"
+import {HomeContentWrapper, HomeStyledContent} from "./Styled"
 
 export function HomeContent(props) {
     return (
-        <ContentWrapper>
-            <ContentContent>
+        <HomeContentWrapper>
+            <HomeStyledContent>
                 {props.children}
-            </ContentContent>
-        </ContentWrapper>
+            </HomeStyledContent>
+        </HomeContentWrapper>
     )
 }
