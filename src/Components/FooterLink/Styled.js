@@ -11,6 +11,7 @@ font-style: normal;
 line-height: normal;
 letter-spacing: normal;
 color: #babfc3;
+white-space: nowrap
 `
 
 export const Seperator = styled.span`
