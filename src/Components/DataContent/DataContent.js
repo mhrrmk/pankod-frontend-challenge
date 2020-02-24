@@ -7,9 +7,7 @@ import {calculateShown} from "../../Utils"
 export const ContentContext = React.createContext([])
 
 export function DataContent({ data }) {
-    console.log("data: ", data)
     const [state, dispatch, actions, sortOptions] = useContentState()
-    console.log("filtered data: ", calculateShown(data, state.input, state.sortOption))
     return (
         <>
             <InputsWrapper>
@@ -20,7 +18,7 @@ export function DataContent({ data }) {
             </InputsWrapper>
             <CardsWrapper>
                 {calculateShown(data, state.input, state.sortOption).map(itemData => (
-                    <Card item={itemData}/>
+                    <Card key={itemData.title} item={itemData}/>
                 ))}
             </CardsWrapper>
         </>
