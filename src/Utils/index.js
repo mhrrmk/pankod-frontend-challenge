@@ -25,7 +25,7 @@ const isIncluded = (input) => (item) => (
     item.title.toLowerCase().includes(input.toLowerCase())
 )
 
-export const BiggerThan2010 = item => (
+export const isBiggerThan2010 = item => (
     item.releaseYear > 2010
 )
 

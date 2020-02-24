@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import { SeriesMoviesContentWrapper, SeriesMoviesStyledContent } from "./Styled"
-import { fetchData, BiggerThan2010 } from "../../Utils"
+import { fetchData, isBiggerThan2010 } from "../../Utils"
 import { DataContent } from "../"
 import { useDataState } from "../../State"
 
@@ -25,7 +25,7 @@ export function SeriesMoviesContent({ type }) {
         <SeriesMoviesContentWrapper>
             <SeriesMoviesStyledContent>
                 {state.dataState === dataStates.fetched &&
-                    <DataContent data={state.data.filter(BiggerThan2010)} />}
+                    <DataContent data={state.data.filter(isBiggerThan2010)} />}
                 {state.dataState === dataStates.loading &&
                     <div>loading...</div>}
                 {state.dataState === dataStates.error &&
