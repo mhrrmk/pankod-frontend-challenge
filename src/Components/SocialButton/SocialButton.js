@@ -1,8 +1,8 @@
 import React from "react"
-import {SocialButtonWrapper} from "./Styled"
+import {SocialButtonWrapper, Img} from "./Styled"
 
-export function SocialButton({src}) {
+export function SocialButton({src, srcHover}) {
     return (
-        <SocialButtonWrapper src={src}/>
+        <SocialButtonWrapper srcc={src} srcHover={srcHover} />
     )
 }
