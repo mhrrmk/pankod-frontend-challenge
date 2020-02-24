@@ -22,6 +22,8 @@ letter-spacing: normal;
 export const SearchWrapper = styled.div`
 width: 432px;
 display: flex;
+flex-wrap: wrap;
+margin-bottom: 12px;
 `
 
 export const SearchButton = styled.div`
