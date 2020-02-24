@@ -1,13 +1,15 @@
 import React from "react"
-import { InputsWrapper } from "./Styled"
+import { InputsWrapper, CardsWrapper } from "./Styled"
 import { useContentState } from "../../State"
-import { Search, Sort } from "../"
+import { Search, Sort, Card } from "../"
+import {calculateShown} from "../../Utils"
 
 export const ContentContext = React.createContext([])
 
 export function DataContent({ data }) {
     console.log("data: ", data)
     const [state, dispatch, actions, sortOptions] = useContentState()
+    console.log("filtered data: ", calculateShown(data, state.input, state.sortOption))
     return (
         <>
             <InputsWrapper>
@@ -16,13 +18,11 @@ export function DataContent({ data }) {
                     <Sort />
                 </ContentContext.Provider>
             </InputsWrapper>
-            <div>{state.input}</div>
-            <div>{state.sortOption}</div>
-            {/* <DataWrapper>
-                {calculateShown(data, state.input, state.sortOption).map(dataItem => (
-                    <Card data={dataItem}/>
+            <CardsWrapper>
+                {calculateShown(data, state.input, state.sortOption).map(itemData => (
+                    <Card item={itemData}/>
                 ))}
-            </DataWrapper> */}
+            </CardsWrapper>
         </>
     )
 }
