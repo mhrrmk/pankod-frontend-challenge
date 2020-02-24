@@ -5,10 +5,8 @@ import { DataContent } from "../"
 import { useDataState } from "../../State"
 
 export function SeriesMoviesContent({ type }) {
-    console.log("type:", type)
 
     const [state, dispatch, actions, dataStates] = useDataState()
-    console.log("DataState: ", state)
 
     useEffect(() => {
         async function fetchMovies() {

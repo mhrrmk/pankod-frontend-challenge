@@ -9,13 +9,9 @@ export function capitalizeFirstLetter(string) {
 // Returns requested data from sample.json with 1s delay
 // Resolves successfully with a probability of 70%
 export function fetchData(type) {
-    console.log("fetching " + type)
     return new Promise((resolve, reject) => {
-        console.log("enter promise")
         setTimeout(() => {
-            console.log("resolve" + type)
             const probability = Math.random()
-            console.log("probability: ", probability)
             if (probability > 0.3) {
                 resolve(feed.entries.filter(i => i.programType === type))
             } else {

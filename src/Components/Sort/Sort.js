@@ -4,10 +4,8 @@ import {ContentContext} from "../DataContent"
 
 export function Sort(props) {
     const [dispatch, actions, sortOptions] = useContext(ContentContext)
-    console.log("[Sort]", "actions: ", actions, "sortOptions: ", sortOptions)
 
     const handleChange = e => {
-        console.log("[Sort] event", e.target.value)
         dispatch({type: actions.SET_SORT, payload: e.target.value})
     }
 
