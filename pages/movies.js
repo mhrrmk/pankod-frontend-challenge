@@ -5,7 +5,7 @@ export default function Movies() {
     return (
         <Template>
             <Title>Popular Movies</Title>
-            <SeriesMoviesContent type="movies"/>
+            <SeriesMoviesContent type="movie"/>
         </Template>
     )
 }
