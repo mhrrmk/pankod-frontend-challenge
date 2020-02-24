@@ -6,7 +6,7 @@ margin-left: 128px;
 margin-right: 128px;
 
 @media (max-width: 700px){
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 `
