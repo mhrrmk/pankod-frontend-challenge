@@ -59,8 +59,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
   | | :
   |-Constants
   |-Utils
-  |-State  -> Custom hooks for state management
-  | |-useDataState.js  -> Manages state for data fetching
+  |-State                 -> Custom hooks for state management
+  | |-useDataState.js     -> Manages state for data fetching
   | |-useContentState.js  -> Manages state for showing data
 ```
 
