@@ -1,6 +1,6 @@
 import {useReducer} from "react"
 
-const sortOptions = {
+export const sortOptions = {
     ASC_TITLE: "asc_title",
     DSC_TITLE: "dsc_title",
     ASC_YEAR: "asc_year",
