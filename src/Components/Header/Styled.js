@@ -51,18 +51,12 @@ letter-spacing: normal;
 color: #fdfdfd;
 `
 
-export const TrialWrapper = styled.a`
+export const Trial = styled.a`
 width: 156px;
 height: 37px;
+padding-left: 16px;
+padding-right: 16px;
 background-color: #424242;
-display: flex;
-align-items: center;
-`
-
-export const TrialText = styled.div`
-margin-left: 16px;
-width: 156px;
-height: 14px;
 font-family: Raleway;
 font-size: 14px;
 font-weight: 600;
@@ -71,4 +65,6 @@ font-style: normal;
 line-height: normal;
 letter-spacing: normal;
 color: #fdfdfd;
+display: flex;
+align-items: center
 `

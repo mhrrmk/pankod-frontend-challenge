@@ -5,8 +5,7 @@ import {
     HeaderText,
     HeaderButtons,
     Login,
-    TrialWrapper,
-    TrialText
+    Trial
 } from "./Styled"
 
 export function Header() {
@@ -16,9 +15,7 @@ export function Header() {
                 <HeaderText>DEMO Streaming</HeaderText>
                 <HeaderButtons>
                     <Login>Log in</Login>
-                    <TrialWrapper>
-                        <TrialText>Start Your Free Trial</TrialText>
-                    </TrialWrapper>
+                    <Trial>Start Your Free Trial</Trial>
                 </HeaderButtons>
             </HeaderContent>
         </HeaderWrapper>
