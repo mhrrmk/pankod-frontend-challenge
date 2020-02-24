@@ -17,11 +17,14 @@ flex-direction: column;
 justify-content: space-between;
 `
 
-export const FooterTextContent = styled.div``
+export const FooterTextContent = styled.div`
+margin-bottom: 48px;
+`
 
 export const FooterLinks = styled.div`
 display: flex;
 margin-bottom: 20px;
+flex-wrap: wrap;
 `
 
 export const Copyright = styled.div`
@@ -40,6 +43,8 @@ display: flex;
 justify-content: space-between;
 `
 
-export const Social = styled.div``
+export const Social = styled.div`
+display: flex;
+`
 
 export const Store = styled.div``
