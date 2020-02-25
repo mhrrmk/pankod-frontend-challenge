@@ -1,3 +1,7 @@
+## What is this?
+
+An attempt to implement [pankod/frontend-challenge](https://github.com/pankod/frontend-challenge)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -76,4 +80,4 @@ export  function  useContentState(){
 ### actions
 A collection of possible values to be used in an action as `type` property
 ### sortOptions
-A collection of possible values to be used in an action as `payload` property
+A collection of possible values to be used in some actions as `payload` property
