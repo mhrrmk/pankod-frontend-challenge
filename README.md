@@ -61,6 +61,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
   | | | |-MyStyledComponent.js
   | | | |-index.js
   | | :
+  |-Styles                -> Global styles
   |-Constants
   |-Utils
   |-State                 -> Custom hooks for state management
